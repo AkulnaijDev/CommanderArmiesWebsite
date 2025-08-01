@@ -1,0 +1,28 @@
+{
+  "it": {
+    "title": "Commander Armies",
+    "header.title": "Commander Armies",
+    "nav.home": "Home",
+    "nav.rules": "Regolamento",
+    "nav.tournaments": "Tornei",
+    "nav.beginners": "Principianti",
+    "nav.contact": "Contatti",
+    "hero.title": "Un formato tematico di Magic: The Gathering",
+    "hero.subtitle": "Costruisci armate coese e combatti epiche battaglie multiplayer!",
+    "home.description": "Commander Armies è un formato personalizzato di MTG che unisce strategia e lore. Scopri le regole, partecipa a tornei e unisciti alla community!",
+    "footer": "© 2025 Commander Armies"
+  },
+  "en": {
+    "title": "Commander Armies",
+    "header.title": "Commander Armies",
+    "nav.home": "Home",
+    "nav.rules": "Rules",
+    "nav.tournaments": "Tournaments",
+    "nav.beginners": "Beginners",
+    "nav.contact": "Contact",
+    "hero.title": "A thematic Magic: The Gathering format",
+    "hero.subtitle": "Build cohesive armies and fight epic multiplayer battles!",
+    "home.description": "Commander Armies is a custom MTG format combining strategy and lore. Discover the rules, join tournaments, and connect with the community!",
+    "footer": "© 2025 Commander Armies"
+  }
+}

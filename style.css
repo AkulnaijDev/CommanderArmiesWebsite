@@ -1,0 +1,155 @@
+html{
+  height:100%;
+    scrollbar-width: thin;
+  /* Imposta il colore della traccia uguale allo sfondo del body */
+  scrollbar-color: #666 #121212; 
+}
+
+
+/* Per Chrome, Safari, Edge, etc. */
+
+::-webkit-scrollbar {
+  width: 8px; /* Puoi renderla anche più sottile */
+}
+
+/* La traccia (lo sfondo della barra) -> LA RENDIAMO TRASPARENTE */
+::-webkit-scrollbar-track {
+  background: transparent; 
+}
+
+/* Il "pollice" (la parte che scorre) */
+::-webkit-scrollbar-thumb {
+  background-color: #555; /* Un grigio scuro che si nota */
+  border-radius: 4px;
+}
+
+/* Il "pollice" quando ci passi sopra col mouse */
+::-webkit-scrollbar-thumb:hover {
+  background-color: #777;
+}
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #121212;
+  color: #ffffff;
+
+  /* NUOVE REGOLE */
+  display: flex;
+  flex-direction: column; /* Impila gli elementi verticalmente */
+  min-height: 98vh; /* Altezza minima pari al 100% della finestra */
+/* 
+  overflow-x: hidden;
+  overflow-y: hidden; */
+}
+
+main {
+    flex-grow: 1; /* Fa in modo che questo elemento cresca per riempire lo spazio vuoto */
+}
+
+header {
+  background-color: #1e1e1e;
+  padding: 1em;
+  text-align: center;
+}
+
+nav a {
+  margin: 0 1em;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.hero {
+  background: url('assets/banner.jpg') no-repeat center center/cover;
+  padding: 6em 1em;
+  text-align: center;
+  height: 200px;
+}
+
+.content {
+  padding: 2em;
+  height:60%;
+}
+
+footer {
+  background-color: #1e1e1e;
+  text-align: center;
+  padding: 1em;
+}
+.lang-select{
+      position: absolute;
+    top: 2%;
+    right: 4%;
+}
+
+.qrCodeContainer{
+  display:inline-flex;
+  width:100%;
+  justify-content: center;
+}
+
+.compactList {
+  /* Imposta una larghezza minima per ogni colonna */
+  column-width: 400px;
+
+  /* Spazio tra una colonna e l'altra */
+  column-gap: 2em;
+}
+
+.compactList li {
+   /* Aggiunge un po' di spazio sotto ogni elemento per leggibilità */
+   padding-bottom: 0.5em; 
+}
+
+.externalLink{
+  font-size: small;
+  color:white;
+}
+
+.brackScreenshots{
+  width: 48%;
+    margin: 5px;
+}
+
+
+.lang-select {
+
+  display: inline-block;
+  background: #f5f5f5;
+  border-radius: 4px;
+  padding: 2px 6px;
+  border: 1px solid #ccc;
+  transition: all 0.3s ease;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.lang-select select {
+  appearance: none; /* rimuove lo stile di default */
+  border: none;
+  background: transparent;
+  font-size: 12px;
+  padding-right: 24px;
+  font-weight: 500;
+  cursor: pointer;
+  outline: none;
+  color: #333;
+}
+
+.lang-select select:hover {
+  color: #000;
+}
+
+.lang-select::after {
+  content: "▼";
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  padding:3px;
+  transform: translateY(-50%);
+  font-size: 12px;
+  color: #888;
+}
