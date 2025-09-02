@@ -43,6 +43,8 @@ const langData = {
 
     "header.title": "COMMANDER ARMIES",
     "footer": "© 2025 Commander Armies",
+    "background.copyright": "Artist - Heonhwa Choe | ™ & © Wizards Of The Coast ",
+
 
     "nav.home": "Home",
     "nav.rules": "Regolamento",
@@ -152,6 +154,7 @@ const langData = {
 
     "header.title": "COMMANDER ARMIES",
     "footer": "© 2025 Commander Armies",
+    "background.copyright": "Artist - Heonhwa Choe | ™ & © Wizards Of The Coast ",
 
     "nav.home": "Home",
     "nav.rules": "Rules",
@@ -255,6 +258,7 @@ const langData = {
 
     "header.title": "COMMANDER ARMIES",
     "footer": "© 2025 Commander Armies",
+    "background.copyright": "Artist - Heonhwa Choe | ™ & © Wizards Of The Coast ",
 
     "nav.home": "Inicio",
     "nav.rules": "Reglamento",

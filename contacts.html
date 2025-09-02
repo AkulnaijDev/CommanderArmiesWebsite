@@ -25,19 +25,24 @@
     <nav>
       <a href="index.html" data-i18n="nav.home"></a>
       <a href="rules.html" data-i18n="nav.rules"></a>
-      <a href="tournaments.html" data-i18n="nav.tournaments"></a>
+      <a  class="hide"  href="tournaments.html" data-i18n="nav.tournaments"></a>
       <a href="beginners.html" data-i18n="nav.beginners"></a>
       <a href="contacts.html" data-i18n="nav.contact"></a>
     </nav>
   </header>
   <main class="content">
-    <p data-i18n="contact.desc"> 
-      <a data-i18n="contact.link" class="externalLink" href="https://chat.whatsapp.com/E4UlbvYa6ue3UrowMoCiNQ"></a>
-     </p>
-    <div class="qrCodeContainer">
-      <img src="assets\QRCode.JPG">
+    <div class="contactsContainer">
+    <div>
+      <p data-i18n="contact.desc"></p>
+      <a data-i18n="contact.link" class="externalLink hidden-on-large" href="https://chat.whatsapp.com/E4UlbvYa6ue3UrowMoCiNQ"></a>
+
     </div>
 
+
+    <div class="qrCodeContainer">
+      <img class="qrCodeImage hidden-on-small" src="assets\QRCode.JPG">
+    </div>
+  </div>
   </main>
   
 </body>
